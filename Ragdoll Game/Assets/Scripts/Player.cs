@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour {
 
     public float moveSpeed = 10f;
@@ -36,6 +37,10 @@ public class Player : MonoBehaviour {
 
         if(Input.GetButtonDown("Jump")){
             jumpTimer = Time.time + jumpDelay;
+        }
+
+        if(Input.GetKeyDown(KeyCode.R)) {
+            SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
         }
 
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
