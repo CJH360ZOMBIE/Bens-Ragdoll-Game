@@ -587,7 +587,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6315598479074613668, guid: 6822e075428185a46826c50a27ff51fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.125
+      value: 9.2565
       objectReference: {fileID: 0}
     - target: {fileID: 6315598479074613668, guid: 6822e075428185a46826c50a27ff51fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -631,7 +631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6315598479074613668, guid: 6822e075428185a46826c50a27ff51fa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 12.15
+      value: 11.887089
       objectReference: {fileID: 0}
     - target: {fileID: 6315598479074613669, guid: 6822e075428185a46826c50a27ff51fa, type: 3}
       propertyPath: m_Color.a
@@ -1100,6 +1100,18 @@ PrefabInstance:
     - target: {fileID: 7257589743797143213, guid: db8e22dbc1029114880ad8e38c73bc77, type: 3}
       propertyPath: gravity
       value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257589743797143213, guid: db8e22dbc1029114880ad8e38c73bc77, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257589743797143213, guid: db8e22dbc1029114880ad8e38c73bc77, type: 3}
+      propertyPath: jumpSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257589743797143213, guid: db8e22dbc1029114880ad8e38c73bc77, type: 3}
+      propertyPath: maxSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db8e22dbc1029114880ad8e38c73bc77, type: 3}
